@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="14.44" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Doctor Login" name="Doctor login with valid credentials" time="14.258">
+<system-out><![CDATA[
+Given User enters the URL "https://acianadocisnuiprod-staging.azurewebsites.net/user/signIn".passed
+Then User clicks on sign-in.................................................passed
+And User enters email "karthik.jambagi@archents.com" and password "Kpj@4321" and clicks login.passed
+Then User lands on provider homepage........................................passed
+When User clicks on logout..................................................passed
+Then User closes browser....................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
